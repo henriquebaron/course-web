@@ -16,6 +16,19 @@ p {
 	/*font-style: italic;*/
 	font-weight: bold;
 	font-family: "Poiret One", cursive;
+	/*line-height: 75px;*/
+	line-height: 5px;
+}
+
+img {
+	float: left;
+}
+
+/*The "clear" property should be used right after calling the "float", in order */
+/*to suppress the efect of the "float" property to the following elements.*/
+footer {
+	clear: both;
+	text-align: center;
 }
 
 li {
