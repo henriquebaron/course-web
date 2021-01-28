@@ -51,3 +51,10 @@ li {
 #div2 {
 	background-color: rgba(255, 0, 0, 0.2);
 }
+
+.boxmodel {
+	border: 5px solid red;
+	display: inline-block;
+	padding: 5px 20px;
+	margin: 0px 20px;
+}
