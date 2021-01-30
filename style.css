@@ -17,7 +17,14 @@ p {
 	font-weight: bold;
 	font-family: "Poiret One", cursive;
 	/*line-height: 75px;*/
-	line-height: 5px;
+	/*line-height: 5px;*/
+	font-size: 20px;
+}
+
+/*The "em" unit indicates that the font will be an amount of times bigger*/
+/*than the size used in the containing element.*/
+span {
+	font-size: 5em;
 }
 
 img {
