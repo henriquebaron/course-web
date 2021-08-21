@@ -1,5 +1,6 @@
 body{
 	margin: auto 0;
+	font-family: Arial;
 }
 
 .zone {
@@ -17,6 +18,21 @@ body{
     -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.box:hover {
+	-webkit-transform: rotate(-3deg);
+	-moz-transform: rotate(-3deg);
+	-o-transform: rotate(-3deg);
+	transform: rotate(-3deg);
+}
+
+/*Navigation*/
+
+.sticky{
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 .main-nav {
@@ -55,6 +71,10 @@ a {
 	align-items: center;
 	justify-content: center;
 	height: 50vh;
+}
+
+.cover{
+	width: 30rem;
 }
 
 /*GRID*/
